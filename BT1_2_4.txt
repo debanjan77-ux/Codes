@@ -1,0 +1,237 @@
+1 Installation of MetaMask and study spending Ether per transaction.
+
+step1 -> downloading metamask
+step2 -> creating your wallet
+step3 -> creating your password
+step4 -> confirming the backup phrase
+step5 -> final steps
+
+
+
+2 Create your own wallet using Metamask for crypto transactions
+
+
+Here’s a **well-structured practical write-up** for your Blockchain Technology lab experiment on creating a wallet using MetaMask 👇
+
+---
+
+## 🧩 **Experiment 2: Create Your Own Wallet Using MetaMask for Crypto Transactions**
+
+---
+
+### **Aim:**
+
+To create a personal cryptocurrency wallet using MetaMask and understand its role in managing and performing crypto transactions on the blockchain.
+
+---
+
+### **Apparatus / Requirements:**
+
+* A computer or mobile device with an internet connection
+* Google Chrome, Firefox, or Brave browser
+* MetaMask browser extension or mobile app
+* Access to a test network (e.g., Ethereum Sepolia testnet)
+
+---
+
+### **Theory:**
+
+A **cryptocurrency wallet** is a digital tool that allows users to store, send, and receive crypto assets such as Ether (ETH).
+**MetaMask** is one of the most popular crypto wallets used to interact with blockchain networks like **Ethereum**.
+It provides:
+
+* A secure private key vault
+* A simple interface for transactions
+* Support for decentralized applications (DApps)
+
+MetaMask can connect to both **main networks (real Ether)** and **test networks (free test Ether)** for learning and development.
+
+---
+
+### **Procedure / Steps:**
+
+#### **Step 1: Install MetaMask**
+
+1. Open your browser and visit the official MetaMask website:
+   🔗 [https://metamask.io/](https://metamask.io/)
+2. Click on **Download → Install MetaMask for Chrome**.
+3. Add the MetaMask extension to your browser.
+4. The MetaMask fox icon will appear in the top-right corner of your browser.
+
+---
+
+#### **Step 2: Create a New Wallet**
+
+1. Click on the MetaMask icon → **“Get Started.”**
+2. Choose **“Create a New Wallet.”**
+3. Set a strong **password** for your wallet.
+4. Carefully read and accept MetaMask’s terms of use.
+
+---
+
+#### **Step 3: Backup Secret Recovery Phrase**
+
+1. MetaMask will display a **12-word Secret Recovery Phrase**.
+2. **Write it down on paper** (do not share or store it online).
+3. Confirm the phrase when asked — this ensures you can recover your wallet if needed.
+4. Wallet creation is now complete.
+
+---
+
+#### **Step 4: Connect to Test Network**
+
+1. Click on the **Network Selector** at the top of MetaMask.
+2. Enable test networks from **Settings → Advanced → Show test networks.**
+3. Select **“Sepolia Test Network”** (for learning purposes).
+
+---
+
+#### **Step 5: Add Test Ether (Optional)**
+
+1. Go to a faucet website like:
+   🔗 [https://sepoliafaucet.com/](https://sepoliafaucet.com/)
+2. Paste your wallet address (from MetaMask).
+3. Request **free test Ether** to simulate real transactions.
+
+---
+
+#### **Step 6: View Wallet Details**
+
+* Click on your **Account Name** to copy your wallet address.
+* You can now:
+
+  * Receive Ether by sharing this address.
+  * Send Ether using the **“Send”** option.
+  * View transaction history under the **Activity** tab.
+
+---
+
+### **Observations:**
+
+| Parameter       | Example              |
+| --------------- | -------------------- |
+| Wallet Name     | Account 1            |
+| Wallet Address  | 0x7D23...E4a5        |
+| Network         | Sepolia Test Network |
+| Balance         | 1.0 Test ETH         |
+| Transaction Fee | 0.0002 ETH           |
+
+---
+
+### **Result:**
+
+A new MetaMask wallet was successfully created. The wallet can be used to send and receive cryptocurrency and interact with decentralized applications securely on the blockchain.
+
+---
+
+### **Conclusion:**
+
+MetaMask provides a simple and secure interface for managing digital assets and performing crypto transactions. It also allows users to explore blockchain technology safely through test networks without using real money.
+
+---
+
+Would you like me to give **Experiment 3** next — for example, *“Deploying a Smart Contract using Remix and MetaMask”* — in the same format (Aim, Apparatus, Steps, Observation, Result)?
+
+
+
+
+
+
+
+
+4 . Write a survey report on types of Blockchains and its real time use cases.
+
+Here’s a **sample survey report** on *Types of Blockchains and Their Real-Time Use Cases* — written in clear, student-friendly language and formatted neatly for an academic or project submission.
+
+---
+
+## **Survey Report on Types of Blockchains and Their Real-Time Use Cases**
+
+### **1. Introduction**
+
+Blockchain technology is a revolutionary concept that enables secure, transparent, and tamper-proof digital transactions without the need for intermediaries. It works as a distributed ledger that records data across multiple computers in a network. Originally developed for Bitcoin, blockchain is now being used in various industries such as finance, healthcare, logistics, and government sectors.
+
+---
+
+### **2. Types of Blockchains**
+
+Blockchains can be broadly divided into **four main types** based on their accessibility and permission structure:
+
+#### **a. Public Blockchain**
+
+* **Definition:**
+  A public blockchain is open to everyone. Anyone can join the network, read or write data, and participate in consensus (like mining or validating transactions).
+* **Examples:** Bitcoin, Ethereum
+* **Features:** Decentralized, transparent, and secure.
+* **Use Cases:** Cryptocurrency transactions, smart contracts, decentralized applications (DApps).
+
+---
+
+#### **b. Private Blockchain**
+
+* **Definition:**
+  A private blockchain is restricted to a single organization. Only authorized participants can access and validate transactions.
+* **Examples:** Hyperledger Fabric, R3 Corda
+* **Features:** Controlled access, faster transactions, and higher privacy.
+* **Use Cases:** Supply chain management, internal business operations, record keeping in banks or enterprises.
+
+---
+
+#### **c. Consortium (Federated) Blockchain**
+
+* **Definition:**
+  A consortium blockchain is partially decentralized. It is managed by a group of organizations rather than a single one.
+* **Examples:** Energy Web Foundation, Quorum
+* **Features:** Shared control, transparency among members, efficient consensus.
+* **Use Cases:** Interbank transactions, trade finance, energy management, and healthcare data sharing.
+
+---
+
+#### **d. Hybrid Blockchain**
+
+* **Definition:**
+  A hybrid blockchain combines the features of both public and private blockchains. It allows certain data to be public while keeping sensitive data private.
+* **Examples:** Dragonchain, XinFin
+* **Features:** Flexibility, customizable access, high efficiency.
+* **Use Cases:** Government data sharing, real estate, and large enterprise solutions.
+
+---
+
+### **3. Real-Time Use Cases of Blockchain Technology**
+
+| **Industry**      | **Application**                                         | **Blockchain Type Used** |
+| ----------------- | ------------------------------------------------------- | ------------------------ |
+| **Finance**       | Secure cryptocurrency transactions and digital payments | Public                   |
+| **Healthcare**    | Managing patient records securely                       | Consortium / Private     |
+| **Supply Chain**  | Tracking goods and verifying authenticity               | Private / Hybrid         |
+| **Government**    | Land registry, identity management, and voting systems  | Hybrid / Public          |
+| **Energy Sector** | Peer-to-peer energy trading platforms                   | Consortium               |
+| **Education**     | Digital certificates and credential verification        | Public / Private         |
+
+---
+
+### **4. Advantages of Blockchain**
+
+* Enhanced transparency and security
+* Reduced fraud and corruption
+* Faster and cheaper transactions
+* Decentralized control and data integrity
+
+---
+
+### **5. Conclusion**
+
+Blockchain technology is transforming the way data and transactions are managed globally. Each type of blockchain — public, private, consortium, and hybrid — serves a unique purpose depending on the level of transparency, security, and control required. With continuous development, blockchain is expected to revolutionize industries by building more trust, efficiency, and accountability in digital systems.
+
+---
+
+### **6. References**
+
+* Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System.*
+* IBM Blockchain. [https://www.ibm.com/blockchain](https://www.ibm.com/blockchain)
+* Ethereum Foundation. [https://ethereum.org](https://ethereum.org)
+
+---
+
+Would you like me to shorten this to a **one-page version** (for handwritten or school project format)?
+

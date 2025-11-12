@@ -1,0 +1,60 @@
+Block chain Assignment 3
+
+3 Write a program in solidity to create Student data. Use the following constructs: • Structures • Arrays • Fallback Deploy this as smart contract on Ethereum and Observe the transaction fee and Gas values. 
+
+remix ide
+
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract StudentData
+{
+    //Structure
+
+    struct Student
+    {
+        string name;
+        uint256 rollno;
+    }
+
+
+    //Array
+
+    Student[] public studentarr;
+
+    function addStudent(string memory name,uint256 rollno) public {
+
+        for(uint i=0;i<studentarr.length;i++)
+        {
+            if(studentarr[i].rollno==rollno)
+            {
+                revert("Student with this roll number already exist!");
+            }
+        }
+        studentarr.push(Student(name,rollno));
+    }
+
+    function getNumberOfStudents() public view returns(uint){
+        return  studentarr.length;
+    }
+
+    function displayAllStudents() public view returns (Student[] memory)
+    {
+        return  studentarr;
+    }
+
+    function getStudentByIndex(uint idx) public view returns (Student memory) {
+    require(idx < studentarr.length, "Index out of bound!");
+    return studentarr[idx];
+}
+
+
+    //Fallback
+
+    fallback() external payable {
+        //this function will handle external function calls that is not there in our contract
+     }
+     receive() external payable { 
+        //this function will handle the ether sent by external user but without data mentioned
+     }
+}
